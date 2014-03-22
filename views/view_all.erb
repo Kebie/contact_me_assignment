@@ -1,0 +1,44 @@
+<h2>Sales</h2>
+<table>
+<% @contacts_sales.each do |contact| %>
+
+  <tr>
+    <td><%= contact.id %></td>
+    <td><%= contact.name %></td>
+    <td><%= contact.address %></td>
+    <td><%= contact.department %></td>
+    <td><%= contact.message %></td>
+  </tr>
+
+<% end %>
+</table>
+
+<h2>Marketing</h2>
+<table>
+<% @contacts_marketing.each do |contact| %>
+
+  <tr>
+    <td><%= contact.id %></td>
+    <td><%= contact.name %></td>
+    <td><%= contact.address %></td>
+    <td><%= contact.department %></td>
+    <td><%= contact.message %></td>
+  </tr>
+
+<% end %>
+</table>
+
+<h2>Technical</h2>
+<table>
+<% @contacts_technical.each do |contact| %>
+
+  <tr>
+    <td><%= contact.id %></td>
+    <td><%= contact.name %></td>
+    <td><%= contact.address %></td>
+    <td><%= contact.department %></td>
+    <td><%= contact.message %></td>
+  </tr>
+
+<% end %>
+</table>
